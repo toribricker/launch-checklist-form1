@@ -1,3 +1,4 @@
+window.addEventListener("load", function () {
 // Write your JavaScript code here!
 
 /* This block of code shows how to format the HTML once you fetch some planetary JSON!
@@ -21,17 +22,16 @@ button.addEventListener("click", function() {
   let input = document.getElementById("pilotName")
 });
 
-window.addEventListener("load", function() {
+
 let form = document.querySelector("form");
 form.addEventListener("submit", function(event) {
 if (pilotName === "" || copilotName === "" || fuelLevel === "" || cargoMass === ""){
-   alert("All fields are required!")
+   alert("All fields are required!");
    event.preventDefault();
 }
 else if( isNaN(pilotName) === false || isNaN(copilotName) === false|| isNaN(fuelLeve) --- true|| isNaN(cargomass)=== true){
-   alert("Make sure to enter valid information for each field!")
+   alert("Make sure to enter valid information for each field!");
    event.preventDefault();
 }
-else if(fuelLevel <=  )
 })
 });
