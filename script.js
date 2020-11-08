@@ -11,3 +11,27 @@
 </ol>
 <img src="${}">
 */
+let copilotName = document.getElementsByName("copilotName")
+let fuelLevel = document.getElementById("fuelLevel")
+let cargoMass = document.getElementsById("cargoMass")
+
+let button = document.getElementById("formSubmit");
+
+button.addEventListener("click", function() {
+  let input = document.getElementById("pilotName")
+});
+
+window.addEventListener("load", function() {
+let form = document.querySelector("form");
+form.addEventListener("submit", function(event) {
+if (pilotName === "" || copilotName === "" || fuelLevel === "" || cargoMass === ""){
+   alert("All fields are required!")
+   event.preventDefault();
+}
+else if( isNaN(pilotName) === false || isNaN(copilotName) === false|| isNaN(fuelLeve) --- true|| isNaN(cargomass)=== true){
+   alert("Make sure to enter valid information for each field!")
+   event.preventDefault();
+}
+else if(fuelLevel <=  )
+})
+});
